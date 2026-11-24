@@ -7,7 +7,7 @@ bombgame is a VERY small terminal bomb sweeping game written in C, it saves ever
 ### linux / macos
 
 ```
-$ cc -std=c99 -Wall -Wextra main.c -o bombgame
+$ cc -std=c99 -Wall -Wextra bombgame.c -o bombgame
 ```
 
 ### windows
@@ -15,13 +15,13 @@ $ cc -std=c99 -Wall -Wextra main.c -o bombgame
 with mingw-w64 (gcc):
 
 ```
-> gcc -std=c99 -Wall -Wextra main.c -o bombgame.exe
+> gcc -std=c99 -Wall -Wextra bombgame.c -o bombgame.exe
 ```
 
 with msvc, from a developer command prompt:
 
 ```
-> cl /W4 /D_CRT_SECURE_NO_WARNINGS main.c /Fe:bombgame.exe
+> cl /W4 /D_CRT_SECURE_NO_WARNINGS bombgame.c /Fe:bombgame.exe
 ```
 
 ## usage
